@@ -27,6 +27,9 @@ app.get('/coffee', (req , res) =>{
 })
 
 
+app.get('/test', (req, res) =>{
+    res.send("h")
+})
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
